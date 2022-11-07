@@ -77,7 +77,7 @@ let result = setInterval(()=>{
 //        console.log("GameOver");
 
         
-        gameOver.style.display = "bloque";
+        gameOver.style.display = "block";
         bloque.classList.remove("bloqueActivo");
         suelo.firstElementChild.style.animation = "none";
         nubes.firstElementChild.style.animation = "none";
